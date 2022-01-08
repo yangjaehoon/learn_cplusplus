@@ -130,7 +130,7 @@ void showAllAccInfo()
     {
         cout<<"계좌ID: "<<accArr[i].accId<<'\n';
         cout<<"이 름: "<<accArr[i].cusName<<'\n';
-        cout<<"잔 액: "<<accArr[i].balance<<'\n';
+        cout<<"잔 액: "<<accArr[i].balance<<'\n'<<'\n'<<'\n';
     }
 }
 
