@@ -2,15 +2,15 @@
 
 using namespace std;
 
-void SwapPointer(int *(&ptr1),int *(&ptr2))
+void SwapPointer(int *(&pref1),int *(&pref2))
 {
     //int* &n = ptr1;
-    int *n = ptr1;
-    cout<<ptr1 << " " <<*ptr1 << " "<< ptr2<< " "<< *ptr2 << " (swap)"<<'\n';
-    ptr1 = ptr2;
-    cout<<ptr1 << " " <<*ptr1 << " "<< ptr2<< " "<< *ptr2 << " (swap)"<<'\n';
-    ptr2 = n;
-    cout<<ptr1 << " " <<*ptr1 << " "<< ptr2<< " "<< *ptr2 << " (swap)"<<'\n';
+    int *n = pref1;
+    cout<<pref1 << " " <<*pref1 << " "<< pref2<< " "<< *pref2 << " (swap)"<<'\n';
+    pref1 = pref2;
+    cout<<pref1 << " " <<*pref1 << " "<< pref2<< " "<< *pref2 << " (swap)"<<'\n';
+    pref2 = n;
+    cout<<pref1 << " " <<*pref1 << " "<< pref2<< " "<< *pref2 << " (swap)"<<'\n';
 }
 int main()
 {
