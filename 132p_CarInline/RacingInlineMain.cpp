@@ -13,6 +13,7 @@ int main()
     return 0;
 }
 
-//ì»´íŒŒì¼ í•˜ëŠ”ë°©ë²•
-//g++ Car.cpp RacingMain.cpp -o ì´ë¦„
-// ./ì´ë¦„
+//ÄÄÆÄÀÏ ÇÏ´Â¹æ¹ı
+//g++ Car.cpp RacingMain.cpp -o ÀÌ¸§
+// ./ÀÌ¸§
+//ÀÎÄÚµùÇÏ¿© ´Ù½Ã ÀúÀå
