@@ -17,7 +17,7 @@ public:
     int SaleApples(int money)
     {
         int num = money/APPLE_PRICE;
-        numOfApples = num;
+        numOfApples -= num;
         myMoney+=money;
         return num;
     }
@@ -57,7 +57,7 @@ int main()
     seller.InitMembers(1000, 20, 0);
     FruitBuyer buyer;
     buyer.InitMembers(5000);
-    buyer.BuyApples(seller, 20000);
+    buyer.BuyApples(seller, 2000);
 
     cout<<"과일 판매자의 현황"<<endl;
     seller.ShowSalesResult();
